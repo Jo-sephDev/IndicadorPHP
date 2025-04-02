@@ -1,0 +1,29 @@
+# Ignorar archivos de base de datos
+Model/Indicadores.sql
+
+# Ignorar archivos temporales o de sistema
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Ignorar archivos de configuración sensibles (si los tienes)
+Config/configBd.php
+
+# Ignorar carpetas típicas de IDEs
+.vscode/
+.idea/
+
+# Ignorar cachés
+cache/
+*.cache
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar el archivo de sesión (si usas sesiones guardadas)
+sess_*
+
+# Ignorar node_modules si usas JS moderno en el futuro
+node_modules/
